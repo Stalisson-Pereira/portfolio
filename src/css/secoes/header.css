@@ -54,7 +54,7 @@
     flex-direction: column;
     cursor: pointer;
 }
-  
+
 .header .hamburguer {
     position: relative;
     display: block;
@@ -127,7 +127,7 @@
         z-index: 1;
     }
 
-   .header nav ul {
+.header nav ul {
         display: none;        
         background-color: var(--cor-fundo-escuro);         
         padding: 20px;       

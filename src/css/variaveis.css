@@ -1,12 +1,11 @@
 :root {
-    --cor-primaria: #43bd8e;
-    --cor-secundaria: #FD6C22;    
-    --cor-branca: #fff;
-    --cor-fundo-escuro: #040203;    
-    --cor-fundo-cinza-escuro: #282828;
-    --cor-fundo-cinza-claro: #353535;    
+    --cor-primaria: #dc3545;
+    --cor-secundaria: #007bff;    
+    --cor-branca: #f8f9fa;    
+    --cor-fundo-cinza-escuro: #343a40;
+    --cor-fundo-cinza-claro: #17a2b8;    
   }
-    
+
   :root {
     --fonte-primaria: 'Poppins', sans serif;
     --fonte-secundaria: 'Raleway', sans serif;
@@ -15,7 +14,7 @@
     --fonte-grande: 2.4rem;
     --fonte-normal: 1.6rem;
   }
-  
+
   :root {
     --mobile-padding: 30px;
   }

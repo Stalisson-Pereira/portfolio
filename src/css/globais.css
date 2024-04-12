@@ -9,7 +9,8 @@ html {
   }
   
   body {
-    background-color: var(--cor-fundo-cinza-escuro);
+    background: linear-gradient(150deg, #000000, #1e32a3);
+    background-size: 120% 120%;
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }
