@@ -10,9 +10,10 @@ html {
   
   body {
     background: linear-gradient(150deg, #000000, #1e32a3);
-    background-size: 120% 120%;
+    background-size: 110% 110%;
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
+
   }
 
   .container {
@@ -90,3 +91,17 @@ html {
     background-color: var(--cor-secundaria);
     color: var(--cor-branca);
   }
+
+  @keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

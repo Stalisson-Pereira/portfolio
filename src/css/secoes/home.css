@@ -37,9 +37,11 @@
 }
 
 .home .img-home .img-box img {
+    background: linear-gradient(to right, rgba(232,62,140,1) 0%, rgba(0,123,255,1) 40%, rgba(220,53,69,1) 65%);
+    background-size: 180% 180%;
     width: 100%;
     border-radius: 50%;
-    border: 10px solid transparent;
+    animation: gradient-animation 5s ease infinite;
 }
 
 .home .texto-home p {
